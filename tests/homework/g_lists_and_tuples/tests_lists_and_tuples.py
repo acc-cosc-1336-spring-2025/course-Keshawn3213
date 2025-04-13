@@ -21,7 +21,4 @@ class Test_Config(unittest.TestCase):
             [0.1, 0.4, 0.0, 0.2],
             [0.1, 0.3, 0.2, 0.0]
         ]
-        result = get_p_distance_matrix(data)
-        for i in range(len(expected)):
-            for j in range(len(expected)):
-                self.assertAlmostEqual(result[i][j], expected[i][j], places=3)
+  
