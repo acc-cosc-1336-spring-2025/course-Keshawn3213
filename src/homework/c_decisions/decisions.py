@@ -1,5 +1,3 @@
-## decisions.py
-
 def get_options_ratio(option, total):
     if total == 0:
         return 0  # Avoid division by zero
