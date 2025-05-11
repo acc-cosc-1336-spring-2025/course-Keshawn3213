@@ -1,4 +1,5 @@
-from tests.homework.b_in_proc_out import tests_in_proc_out
+import unittest
+from tests.homework.c_decisions import test_decisions
 
-suite = unittest.TestLoader().loadTestsFromModule(tests_in_proc_out)
-
+suite = unittest.TestLoader().loadTestsFromModule(test_decisions)
+unittest.TextTestRunner().run(suite)
