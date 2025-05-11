@@ -1,5 +1,3 @@
-#import decisions
-
 def main():
     options = int(input("Enter the number of options: "))
     total = int(input("Enter the total number of responses: "))
