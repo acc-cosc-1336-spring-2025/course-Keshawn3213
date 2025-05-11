@@ -1,3 +1,2 @@
 import unittest
-from tests.homework.h_strings import test_strings
-
+from tests.homework.g_lists_and_tuples import test_lists_and_tuples
