@@ -1,5 +1,4 @@
-import unittest
-from tests.homework.j_classes import tests_classes
+from tests.homework.b_in_proc_out import tests_in_proc_out
 
-suite = unittest.TestLoader().loadTestsFromModule(tests_classes)
-unittest.TextTestRunner().run(suite)
+suite = unittest.TestLoader().loadTestsFromModule(tests_in_proc_out)
+
