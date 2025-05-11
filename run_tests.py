@@ -1,5 +1,3 @@
 import unittest
-from tests.homework.d_repetition import test_repetition
+from tests.homework.h_strings import test_strings
 
-suite = unittest.TestLoader().loadTestsFromModule(test_repetition)
-unittest.TextTestRunner().run(suite)
